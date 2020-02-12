@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Task 8 - Palette</title>
+  <title>PISKEL</title>
   <link rel="stylesheet" href="css/style.css">
 <link href="style.css" rel="stylesheet"></head>
 <body>
@@ -35,23 +35,23 @@
         </p>
         <ul>
           <li class="instrument_box">
-              <img class="instrument_images" src="images/95228ca1b1a0faababdf523a3649cb21.png" >
+              <img class="instrument_images" src="images/28c1262c17566c4c3840dc91e137c71c.png" >
               <div> Бяры колер прама з малюнка </div>
           </li>
           <li class="instrument_box">
-              <img class="instrument_images" src="images/ae2dba3cf04d4a4076b73d009436d4bd.png" >
-              <div>Выбірай колер з палітры</div>
+              <img class="instrument_images" src="images/f0085aa64ec05aaa5030326a3768aa3d.png" >
+              <div>Дабауляй рамкi</div>
           </li>
           <li class="instrument_box">
-              <img class="instrument_images" src="images/743518836a780c85eab2faf98211f8fd.png" >
+              <img class="instrument_images" src="images/a59835c7b2614e25bd92a42763deff7b.png" >
               <div>Малюй прамыя лініі</div>
           </li>
           <li class="instrument_box" >
-              <img class="instrument_images" src="images/147933e1180228209dfe30aafefb838b.png" >
-              <div data-tooltip="Выберите цвет, нажмите на канвас">Сцірай тое, што намалявау</div>
+              <img class="instrument_images" src="images/6c893a40c1820151f14e037c9f46ed71.png" >
+              <div data-tooltip="Выберите цвет, нажмите на канвас">Заливай колерам усе зразу</div>
           </li>
           <li class="instrument_box">
-            <img class="instrument_images" src="images/147933e1180228209dfe30aafefb838b.png" >
+            <img class="instrument_images" src="images/4aa12c280baa568e8cf3d1f325cc0ce7.png" >
             <div>Малюй, як хочаш</div>
         </li>
         </ul>
@@ -103,87 +103,86 @@
         </p>
       </div>
       <div class="left_menu">
-        <div class="instruments" id="instruments"> 
-          <ul>
-            <li class="instrument_box">
-                <img class="instrument_images" src="images/95228ca1b1a0faababdf523a3649cb21.png" >
-                <div>Choose color</div>
+        <div class="instrument_color_container">
+          <div class="instruments" id="instruments"> 
+            <ul>
+              <li class="instrument_box">
+                  <img class="instrument_images" src="images/28c1262c17566c4c3840dc91e137c71c.png" >
+                  <div>Choose color</div>
+              </li>
+              <li class="instrument_box">
+                  <img class="instrument_images" src="images/a59835c7b2614e25bd92a42763deff7b.png" >
+                  <div> Line</div>
+              </li>
+              <li class="instrument_box" >
+                  <img class="instrument_images" src="images/6c893a40c1820151f14e037c9f46ed71.png" >
+                  <div data-tooltip="Выберите цвет, нажмите на канвас">Color fill</div>
+              </li>
+              <li class="instrument_box">
+                <img class="instrument_images" src="images/4aa12c280baa568e8cf3d1f325cc0ce7.png" >
+                <div>Pencil</div>
             </li>
             <li class="instrument_box">
-                <img class="instrument_images" src="images/ae2dba3cf04d4a4076b73d009436d4bd.png" >
-                <div> Paint bucket </div>
-            </li>
-            <li class="instrument_box">
-                <img class="instrument_images" src="images/743518836a780c85eab2faf98211f8fd.png" >
-                <div> Line</div>
-            </li>
-            <li class="instrument_box" >
-                <img class="instrument_images" src="images/147933e1180228209dfe30aafefb838b.png" >
-                <div data-tooltip="Выберите цвет, нажмите на канвас">Color fill</div>
-            </li>
-            <li class="instrument_box">
-              <img class="instrument_images" src="images/147933e1180228209dfe30aafefb838b.png" >
-              <div>Pencil</div>
+              <img class="instrument_images" src="images/f0085aa64ec05aaa5030326a3768aa3d.png" >
+              <div>Add frame</div>
           </li>
-          <li class="instrument_box">
-            <img class="instrument_images" src="images/147933e1180228209dfe30aafefb838b.png" >
-            <div>Add frame</div>
-        </li>
-          </ul>
-        </div>
-        <div class="color_palette" id="color_palette">
-          <div class="color">
-            <div class="current" id="current"></div>
-            Current
+            </ul>
           </div>
-          <div class="color">
-            <div class="previous"id="previous"></div>
-            Previous
-          </div>
-          <div class="color">
-            <div class="red"></div>
-            Red
-          </div>
-          <div class="color">
-            <div class="yellow"></div>
-            Yellow
-          </div>
-          <div class="color">
-            <div class="green"></div>
-            Green
-          </div>
-          <div class="color">
-            <div class="blue"></div>
-            Blue
+          <div class="color_palette" id="color_palette">
+            <div class="color">
+              <div class="current" id="current"></div>
+              Current
+            </div>
+            <div class="color">
+              <div class="previous"id="previous"></div>
+              Previous
+            </div>
+            <div class="color">
+              <div class="red"></div>
+              Red
+            </div>
+            <div class="color">
+              <div class="yellow"></div>
+              Yellow
+            </div>
+            <div class="color">
+              <div class="green"></div>
+              Green
+            </div>
+            <div class="color">
+              <div class="blue"></div>
+              Blue
+            </div>
           </div>
         </div>
-      </div>
-      <div class="left_menu_adding_canvas" id="addingCanvas">
-        <div class="buttons_container" id="buttons_container">
-          Animation
-          <div class="button" id="loadSaveImage">
-            Load
+        <div class="left_menu_adding_canvas" id="addingCanvas">
+          <div class="buttons_container" id="buttons_container">
+            Animation
+            <div class="button" id="loadSaveImage">
+              Load
+            </div>
+            <div class="button" id="createNewImage">
+              New 
+            </div>
+            <div class="button" id="createDuplicateImage">
+              Dubl
+            </div>
+            <div class="button" id="deleteImage">
+              Del
+            </div>
+            <div class="button" id="saveImage">
+              Save 
+            </div>
+            <div class="button" id="example">
+              Example
+            </div>
+            <div class="button" id="runImage">
+              Run 
+            </div>
           </div>
-          <div class="button" id="createNewImage">
-            New 
-          </div>
-          <div class="button" id="createDuplicateImage">
-            Dubl
-          </div>
-          <div class="button" id="deleteImage">
-            Del
-          </div>
-          <div class="button" id="saveImage">
-            Save 
-          </div>
-          <div class="button" id="example">
-            Example
-          </div>
-          <div class="button" id="runImage">
-            Run 
-          </div>
+          <div class="animate_item_container" id="animateItemContainer"></div>
         </div>
-      </div>
+      </div> 
       <div class="main_container" id="main_container">
           <ul class="carousel" id="project_content">
             <li class="carousel_item" id="li4">
@@ -215,7 +214,7 @@
               512*512
             </div>
         </div>
-        <div id="aside_menu">
+        <div class="aside_menu" id="aside_menu">
           <div class="button" id="full">
             Full Screen
           </div>
